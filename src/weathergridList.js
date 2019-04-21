@@ -16,11 +16,12 @@ const styles = theme => ({
         flexDirection: 'row',
         justifyContent: 'space-around',
         overflow: 'hidden',
+        height:80,
         backgroundColor: '#EEA900'//theme.palette.background.paper,
     },
     gridList: {
         flexWrap: 'nowrap',
-        height: 100,
+        // height: 100,
         // Promote the list into his own layer on Chrome. This cost memory but helps keeping high FPS.
         transform: 'translateZ(0)',
     },
